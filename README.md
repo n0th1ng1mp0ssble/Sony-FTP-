@@ -1,4 +1,4 @@
-# ShutterDrop · 快门落点
+# ShutterDrop · 快门落点 由deepseek V4.1flash制作修改而来
 
 <p align="center">
   <img src=".github/assets/icon.png" width="96" alt="ShutterDrop">
