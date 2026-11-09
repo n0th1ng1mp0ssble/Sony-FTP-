@@ -147,17 +147,6 @@ python build_exe.py              # 产物：dist_onedir/ShutterDrop-Portable、d
   两种顺序都能正常工作。
 - **安全边界**：只监听本机网卡，不连接互联网，不执行相机发来的任何内容。
 
-## 发布到 GitHub
-
-仓库已经准备好 `.gitignore`、`LICENSE`、`.github/workflows/build.yml`（打 tag 自动构建并发布 Release）。
-一行命令发布：
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\publish_github.ps1 -User 你的用户名 -Repo Sony-FTP- -PushUrl https://github.com/你的用户名/Sony-FTP-.git
-```
-
-手把手步骤见 [发布到GitHub-手把手.md](发布到GitHub-手把手.md)。
-
 ## 许可证
 
 [MIT](LICENSE)
